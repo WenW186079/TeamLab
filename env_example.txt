@@ -1,0 +1,3 @@
+train_path = "CL_TeamLab/data/en.train_copy.jsonl"
+test_path = "CL_TeamLab/data/en.test_copy.jsonl"
+stop_words_path = "CL_TeamLab/data/en_stop_words.txt"

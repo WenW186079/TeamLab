@@ -271,12 +271,3 @@ trainer = CustomTrainer(
 
 train_result = trainer.train()
 print('---------------finish fine tuning---------------')
-
-#from huggingface_hub import login
-#token = "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" # hugging face token
-#login(token=token, add_to_git_credential=True)
-#from transformers import AutoModelForSequenceClassification, AutoTokenizer
-
-# Save the model
-#trainer.push_to_hub("WenWW/")
-#print('--------------------------- saved in hugging face--------------')
